@@ -1,0 +1,21 @@
+
+/* to access class use [ . ] symbol */
+.first{
+    color: rgb(246, 98, 98);
+}
+
+/* to access id use [ # ] symbol */
+#fdiv{
+    background-color: aquamarine;
+}
+
+#div2{
+background-color: bisque;
+}
+
+h2{
+    color: aliceblue;
+    text-align: center;
+    text-shadow:  1px 1px 12px black;
+    box-shadow:  7px 4px 18px black ;
+}

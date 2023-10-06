@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(4, 4, 27);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#div1{
+    background-color: rgb(172, 255, 47);
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 15px;
+    box-shadow: rgba(165, 202, 92, 0.939) 2px 2px 25px;
+    
+}
+
+#maintitle{
+    color: rgb(4, 4, 27);
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+#div2{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.h3{
+    color:yellowgreen;
+    display: inline;
+    margin: 14%;
+    text-align: center;
+    border-style: dashed;
+    border-color: yellowgreen;
+    padding: 0.4% ;
+    padding: 23;
+}
+
+h3:hover{
+    background-color: yellowgreen;
+    color: rgb(4, 4, 27);
+}
+
+a{
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+a:hover{
+    color:  rgb(4, 4, 27);
+}
+
+#div3{
+background-color: yellowgreen;
+}
+
+#para{
+    color:rgb(4, 4, 27);
+    text-align: justify;
+    font-size: 22px;
+    padding: 1%;
+}
+
+.videos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 1%;
+    margin: 1%;
+
+}
+
+#videoheading{
+    color: yellowgreen;
+    text-align: center;
+}
+
+#audioheading{
+    color: yellowgreen;
+    text-align: center;
+}
+
+.audiodiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 3%;
+}
+
+#yt_videos{
+    color: yellowgreen;
+    text-align: center;
+}
+
+.ytvideoscls{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 1%;
+    margin: 1%;
+}
+
+.vid{
+    border: 15%;
+    border-color: yellowgreen;
+    box-shadow: rgba(79, 208, 231, 0.939) 2px 2px 25px;
+}
