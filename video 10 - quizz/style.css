@@ -9,7 +9,14 @@ body{
     margin-right: 30%;
     border-radius: 15px;
     box-shadow: rgba(165, 202, 92, 0.939) 2px 2px 25px;
+    animation: 1s ease-in-out 0s 1 slideInLeft;
     
+}
+
+#div1:hover, #maintitle:hover{
+    background: rgb(4, 4, 27);
+    color: yellowgreen;
+    border-radius: 15px;
 }
 
 #maintitle{
@@ -19,6 +26,15 @@ body{
     padding-top: 1%;
     font-family: 'Pixelify Sans', cursive;
 }
+
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
 
 #div2{
     margin-top: 2%;
@@ -71,6 +87,12 @@ background-color: yellowgreen;
 
 }
 
+.video1:hover{
+    transform: scale(1.05);
+    transition: transform 230ms ease-in-out;
+    box-shadow: yellowgreen 2px 2px 25px; ;
+}
+
 #videoheading{
     color: yellowgreen;
     text-align: center;
@@ -107,4 +129,10 @@ background-color: yellowgreen;
     border: 15%;
     border-color: yellowgreen;
     box-shadow: rgba(79, 208, 231, 0.939) 2px 2px 25px;
+}
+
+.vid:hover{
+    transform: scale(1.05);
+    transition: transform 230ms ease-in-out;
+    box-shadow: yellowgreen 2px 2px 25px; ;
 }
