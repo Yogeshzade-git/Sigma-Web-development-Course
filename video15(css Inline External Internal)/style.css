@@ -1,0 +1,20 @@
+body{
+
+    padding: 0%;
+    margin: 0%;
+
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSES8F0GdGECLrNhp94nxl-akF6pS5uI9Rg2g&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.new_div h1{
+    color: rgb(240, 232, 16);
+    background-color: aqua;
+}
+
+.new_div h2{
+    background-color: black;
+    color: white;
+    
+}
