@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  border: 5px solid rgb(208, 33, 33);
+  display: inline-block;
+  padding: 20px;
+  display: inline-flex;
+  justify-content: center;
+  margin: 30px;
+  background-color: rgb(244, 225, 197);
+  box-shadow: 12px 10px 25px 3px rgba(0, 0, 0, 0.722);
+  border-radius: 18px;
+}
+
+.box2 {
+  border: 5px solid greenyellow;
+  display: inline-block;
+  padding: 20px;
+  display: inline-flex;
+  justify-content: center;
+  margin: 30px;
+  background-color: rgb(244, 225, 197);
+  box-shadow: 12px 10px 25px 3px rgba(0, 0, 0, 0.722);
+  border-radius: 18px;
+}
+
+.box2:hover{
+    background-color: greenyellow;
+    border-color: red;
+}
+
+.box:hover{
+    background-color: red;
+    border-color: greenyellow;
+  
+}
